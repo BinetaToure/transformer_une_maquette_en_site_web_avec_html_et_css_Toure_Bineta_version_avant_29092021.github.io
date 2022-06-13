@@ -188,3 +188,20 @@
         }
       }
       /* ACTIVITY SMARTPHONE */
+
+       /* FOOTER SMARTPHONE */
+  @media screen and (max-width: 768px) {
+    .footer {
+    padding: 50px 0px 50px 0px;
+    }
+    .footerContent {
+    display: block;
+    }
+    .footerColumn {
+      padding: 0px 0px 30px 0px;
+      }
+    .footerColumnTitle {
+    padding: 0px 0px 30px 0px;
+    }
+    }
+    /* FOOTER SMARTPHONE */

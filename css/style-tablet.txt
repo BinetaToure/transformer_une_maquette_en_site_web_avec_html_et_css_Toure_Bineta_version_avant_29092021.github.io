@@ -102,3 +102,26 @@
         }
         }
       /* ACTIVITY TABLET=ACTIVITY DESKTOP */
+
+          /* FOOTER TABLET=FOOTER DESKTOP */
+                @media screen and (max-width: 992px) {
+.footer {
+  width: 100%;
+  padding: 20px 20px 20px 20px;  
+  background-color: #f2f2f2;
+} 
+  .footerContent {
+  display: flex;
+  justify-content: space-between;
+}
+  .footerColumnTitle {
+  padding: 0px 0px 20px 0px;
+}
+  .footerColumnLink {
+  display: block;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 500;
+} 
+}
+          /* FOOTER TABLET=FOOTER DESKTOP */
