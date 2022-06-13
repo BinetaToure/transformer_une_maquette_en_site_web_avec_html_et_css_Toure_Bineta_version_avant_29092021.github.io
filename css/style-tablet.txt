@@ -13,3 +13,92 @@
   } 
   }
   /* HEADER TABLET=HEADER DESKTOP */
+
+        /* SEARCH TABLET=SEARCH DESKTOP */
+      @media screen and (max-width: 992px) {
+        .searchFormWidth {
+          width: 45%;
+        }  
+        .searchFiltersFilter:nth-child(1) {
+          width: 25%;
+      }
+      .searchFiltersFilter:nth-child(2) {
+        width: 25%;
+    }
+      .searchFiltersFilter:nth-child(3) {
+      width: 25%;
+    }
+      .searchFiltersFilter:nth-child(4) {
+          width: 50%;
+      }
+        }
+        /* SEARCH TABLET=SEARCH DESKTOP */
+
+    /* HOSTING TABLET=HOSTING MOBILE & HOSTING DESKTOP */
+    @media screen and (max-width: 992px) {
+    .hostingContent {
+      display: block;
+    }
+    .hostingPopular {
+      border: none;
+      border-radius: 0px;
+      margin: 0px;
+      order: 1;
+      width: 100%;
+      padding: 20px 30px 30px 0px;
+    } 
+    .PopularTitle {
+      padding: 0px 0px 20px 30px;
+    }
+    .PopularContent {
+      display: flex;
+      width: 100%;
+    }
+    .PopularCard {
+      margin: 0px 0px 30px 30px;
+    }
+    .PopularCardFigure {
+      justify-content: space-between;
+    }
+    .PopularCardFigureImg {
+      width: 120px;
+    } 
+    .PopularCardFigcaption {
+      padding: 30px 30px 0px 0px;
+    }
+    .PopularCardFigcaptionTitle {
+      font-size: 10px;
+    }
+    .PopularCardFigcaptionSubtitle {
+      font-size: 9px;
+    }
+    .hostingMain {
+      border: none;
+      border-radius: 0px;
+      width: 100%;
+      background-color: #fff;
+      order: 2;
+      padding: 20px 15px 0px 15px;
+    }
+    .MainCardFigcaptionTitle {
+          line-height: 20px;
+    }
+    .MainCardFigcaptionSubtitle {
+          line-height: 20px;
+    }
+    }
+          /* HOSTING TABLET=HOSTING MOBILE & HOSTING DESKTOP */
+
+      /* ACTIVITY TABLET=ACTIVITY DESKTOP */
+      @media screen and (max-width: 992px) {
+        .activity {
+          padding: 30px 0px 0px 0px;
+        }
+        .activityContent {
+          padding: 0px 10px 0px 30px;
+        }
+        .activityCardFigcaptionTitle {
+        font-size: 13px;
+        }
+        }
+      /* ACTIVITY TABLET=ACTIVITY DESKTOP */
