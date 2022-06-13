@@ -380,3 +380,249 @@ article:active {
       } 
   }
   /* HEADER SMARTPHONE */
+
+        /* SEARCH TABLET=SEARCH DESKTOP */
+        @media screen and (max-width: 992px) {
+          .searchFormWidth {
+            width: 45%;
+          }  
+          .searchFiltersFilter:nth-child(1) {
+            width: 25%;
+        }
+        .searchFiltersFilter:nth-child(2) {
+          width: 25%;
+      }
+        .searchFiltersFilter:nth-child(3) {
+        width: 25%;
+      }
+        .searchFiltersFilter:nth-child(4) {
+            width: 50%;
+        }
+          }
+          /* SEARCH TABLET=SEARCH DESKTOP */
+  
+      /* SEARCH SMARTPHONE */
+      @media screen and (max-width: 768px) { 
+          .search {
+            padding: 0px 0px 30px 0px;
+        }
+          .searchTitle br {
+            display: block;
+        }   
+        .searchFormWidth {
+          width: 98%;
+        }  
+          .searchFormWrapicon {
+            border-radius: 30px 0px 0px 30px;
+            padding: 30px;
+        }    
+          .searchFormInput {
+          width: 68.5%;
+          padding: 30px;
+          }
+          .searchFormSubmit {
+              padding: 30px;
+              border-radius: 30px;
+          } 
+          .searchFormSubmitText {
+          display: none;
+          }
+          i.fa-search {
+          color: #fff;
+          display: block;
+          } 
+          .searchFilters {
+            display: block;
+          }   
+          .searchFiltersTitle {
+          padding: 0px 0px 25px 20px;
+          }
+          .searchFiltersContent {
+            flex-wrap: wrap;
+            margin: 0px;
+          }
+          .searchFiltersFilter {
+            margin: 0px 10px 20px 0px;
+        }
+        .searchFiltersFilter:nth-child(1) {
+          width: 50%;
+      }
+      .searchFiltersFilter:nth-child(2) {
+        width: 47%;
+      }
+      .searchFiltersFilter:nth-child(3) {
+        width: 100%;
+      }
+      .searchFiltersFilter:nth-child(4) {
+        width: 100%;
+      }
+      .searchFiltersFilterType {
+        padding: 0px 25px 0px 20px;
+      }  
+      .searchResult {
+        padding: 0px 0px 0px 20px;
+      }  
+      .searchResultText {
+        margin: 20px 0px 0px 10px;
+      } 
+      .searchResultText br {
+        display: block;
+      }
+      }
+       /* SEARCH SMARTPHONE */
+  
+      /* HOSTING TABLET=HOSTING MOBILE & HOSTING DESKTOP */
+      @media screen and (max-width: 992px) {
+      .hostingContent {
+        display: block;
+      }
+      .hostingPopular {
+        border: none;
+        border-radius: 0px;
+        margin: 0px;
+        order: 1;
+        width: 100%;
+        padding: 20px 30px 30px 0px;
+      } 
+      .PopularTitle {
+        padding: 0px 0px 20px 30px;
+      }
+      .PopularContent {
+        display: flex;
+        width: 100%;
+      }
+      .PopularCard {
+        margin: 0px 0px 30px 30px;
+      }
+      .PopularCardFigure {
+        justify-content: space-between;
+      }
+      .PopularCardFigureImg {
+        width: 120px;
+      } 
+      .PopularCardFigcaption {
+        padding: 30px 30px 0px 0px;
+      }
+      .PopularCardFigcaptionTitle {
+        font-size: 10px;
+      }
+      .PopularCardFigcaptionSubtitle {
+        font-size: 9px;
+      }
+      .hostingMain {
+        border: none;
+        border-radius: 0px;
+        width: 100%;
+        background-color: #fff;
+        order: 2;
+        padding: 20px 15px 0px 15px;
+      }
+      .MainCardFigcaptionTitle {
+            line-height: 20px;
+      }
+      .MainCardFigcaptionSubtitle {
+            line-height: 20px;
+      }
+      }
+            /* HOSTING TABLET=HOSTING MOBILE & HOSTING DESKTOP */
+  
+          /* HOSTING SMARTPHONE */
+      @media screen and (max-width: 768px) { 
+        .hostingPopular {
+          padding: 30px 0px 30px 0px;
+          } 
+        .PopularTitle {
+          padding: 0px 0px 40px 0px;
+        }
+        .PopularContent {
+          display: block;
+        }
+        .PopularCard {
+          margin: 0px 0px 20px 0px;
+          height: 230px;
+        }
+        .PopularCardFigureImg {
+          width: 216px;
+          height: 220px;
+        }
+        .PopularCardFigcaption {
+        padding: 15px 200px 0px 0px;
+        line-height: 30px;
+        }
+        .PopularCardFigcaptionSpace {
+        padding: 60px 0px 0px 0px;
+        }
+        .hostingMain {
+        margin: 0px;
+        padding: 50px 0px 30px 0px;
+        }
+        .MainTitle {
+        padding: 0px 0px 10px 0px;
+        }     
+        .MainContent {
+        display: block;
+        }
+        .MainCard {
+        margin: 10px 0px 25px 0px;
+        height: 300px;
+        width: 100%;
+        }
+        .MainCardFigureImg {
+          height: 180px;
+          } 
+        .MainCardFigcaptionSubtitle {
+          line-height: 45px;
+        }
+        .ViewmorePadding {
+          padding: 20px 0px 0px 0px;
+        } 
+        }
+        /* HOSTING SMARTPHONE */
+  
+        /* ACTIVITY TABLET=ACTIVITY DESKTOP */
+        @media screen and (max-width: 992px) {
+          .activity {
+            padding: 30px 0px 0px 0px;
+          }
+          .activityContent {
+            padding: 0px 10px 0px 30px;
+          }
+          .activityCardFigcaptionTitle {
+          font-size: 13px;
+          }
+          }
+        /* ACTIVITY TABLET=ACTIVITY DESKTOP */
+  
+        /* ACTIVITY SMARTPHONE */
+      @media screen and (max-width: 768px) {
+        .activityTitle {
+        padding: 0px 0px 40px 0px;
+        }
+        .activityContent {
+          display: block;
+          padding: 0px;
+          }
+          .activityColumn {
+           width: 100%;
+          }
+          .activityCard {
+            margin: 0px 0px 30px 0px;
+            width: 100%;
+            height: 280px;
+          }
+          .activityCardFigureImg {
+            border-radius: 10px 10px 0px 0px;
+            height: 200px;
+            } 
+          .activityCardFigcaption {
+          padding: 35px 0px 0px 0px;
+          }
+          .activityCardFigcaptionTitle {
+          line-height: 1px;
+          }
+          .activityCardFigcaptionGrade {
+          padding: 0px 0px 5px 0px;
+          }
+        }
+        /* ACTIVITY SMARTPHONE */
+  
