@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Reservia : Projet 2 parcours "Développement web" chez OpenClassroom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+
+<body class="border">
+    <header class="header border">
+        <!-- HEADER -->
+        <img class="headerImg" src="./images/logo/Booki.png" alt="Reservia">
+        <nav class="headerNav">
+            <a class="headerNavLink" href="#hosting">Hébergements</a>
+            <a class="headerNavLink" href="#activity">Activités</a>
+        </nav>
+    </header>
+    <!-- HEADER -->
+</body>
+
+</html>

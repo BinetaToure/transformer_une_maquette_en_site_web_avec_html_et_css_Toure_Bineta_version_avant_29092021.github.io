@@ -1,0 +1,15 @@
+/* BODY TABLET */
+@media screen and (max-width: 992px) {
+    body {
+      margin: 0;
+    }
+  }
+  /* BODY TABLET */
+
+  /* HEADER TABLET=HEADER DESKTOP */
+  @media screen and (max-width: 992px) {
+  .headerNavLink:nth-child(1) {
+    padding: 60px 32px 0px 32px;
+  } 
+  }
+  /* HEADER TABLET=HEADER DESKTOP */

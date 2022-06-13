@@ -1,0 +1,101 @@
+/* DESKTOP-FIRST=general rules */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+.border {
+  /* border: 1px solid #000; */
+}
+body {
+    font-family: "Raleway", "Sans serif";
+    max-width: 1500px;
+} /* max-width desktop in body */
+* {
+  box-sizing: border-box;
+  margin: 0;  
+}  
+/* block & content */
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 20px 20px;
+} 
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 15px;
+  font-weight: 500;
+} 
+.headerImg {
+  padding: 60px 0px 0px 0px;
+  order: 1;
+} 
+.headerNav {
+  order: 2;
+}
+.headerNavLink {
+  font-size: 20px;
+}
+.headerNavLink:hover {
+  border-top: 5px solid #0065FC;
+} 
+.headerNavLink:nth-child(1) {
+  padding: 60px 50px 0px 50px;
+  color: #0065FC;
+  order: 3;
+}
+.headerNavLink:nth-child(2) {
+  padding: 60px 0px 0px 50px;
+  order: 4;
+  border-top: none;
+}
+
+/* BODY TABLET */
+@media screen and (max-width: 992px) {
+    body {
+      margin: 0;
+    }
+  }
+  /* BODY TABLET */
+
+  /* BODY SMARTPHONE */
+  @media screen and (max-width: 768px) {
+    body {
+      margin: 0;
+    }
+  }
+  /* BODY SMARTPHONE */
+
+  /* HEADER TABLET=HEADER DESKTOP */
+  @media screen and (max-width: 992px) {
+  .headerNavLink:nth-child(1) {
+    padding: 60px 32px 0px 32px;
+  } 
+  }
+  /* HEADER TABLET=HEADER DESKTOP */
+
+  /* HEADER SMARTPHONE */
+  @media screen and (max-width: 768px) {
+      .header {
+      flex-direction: column;
+      padding: 0px 0px 20px 0px;
+      }
+      .headerNav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding: 0px 0px 20px 0px;
+      align-items: center;
+      width: 100%;
+      }
+      .headerNavLink:hover {
+        border-top: none;
+      } 
+      .headerNavLink:nth-child(1) {
+        border-bottom: 3px solid #0065FC;
+        padding: 45px 107px 20px 107px;
+      } 
+      .headerNavLink:nth-child(2) {
+      border-bottom: 3px solid #f2f2f2;
+      padding: 45px 162px 20px 165px;
+      } 
+  }
+  /* HEADER SMARTPHONE */
